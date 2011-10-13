@@ -1,7 +1,7 @@
 Custom JSV
 ==========
 
-Cjsv is a layer that sits on top of \[[JSV](https://github.com/garycourt/JSV)\] to provide custom validation functionality after the JSON Schema validation process. For now, it only provides functionality to pass in any number of functions that return true or false to determine whether the data was good. Error reporting ties into Jsv's existing error report, but it's not nearly as robust yet. I think I might have to slightly alter Jsv to get the robustness we're looking for.
+Cjsv is a layer that sits on top of \[JSV(https://github.com/garycourt/JSV)\] to provide custom validation functionality after the JSON Schema validation process. For now, it only provides functionality to pass in any number of functions that return true or false to determine whether the data was good. Error reporting ties into Jsv's existing error report, but it's not nearly as robust yet. I think I might have to slightly alter Jsv to get the robustness we're looking for.
 
 ## Example
 Let's take a looksie at a coffeescript example:
