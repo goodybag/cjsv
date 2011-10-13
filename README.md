@@ -5,6 +5,7 @@ Cjsv is a layer that sits on top of \[[JSV](https://github.com/garycourt/JSV)\] 
 
 ## Example
 Let's take a looksie at a coffeescript example:
+
 	Cjsv = require("./cjsv")
 	myValidator = new Cjsv
 	
