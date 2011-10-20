@@ -1,0 +1,17 @@
+{
+  "author": "John Fawcett <jrf0110@gmail.com>",
+  "name": "cjsv",
+  "description": "A layer on top of JSV to add custom validation support",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jrf0110/cjsv",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jrf0110/cjsv.git"
+  },
+  "main": "./lib/cjsv",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
