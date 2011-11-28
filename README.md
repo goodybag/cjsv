@@ -7,7 +7,6 @@ Cjsv is a layer that sits on top of [JSV](https://github.com/garycourt/JSV) to p
 Let's take a looksie at a coffeescript example:
 
 	Cjsv = require("./cjsv")
-	myValidator = new Cjsv
 	
 	someSchema = {
 		type: "object"
@@ -29,7 +28,7 @@ Let's take a looksie at a coffeescript example:
 		return (data.lastName.length < 5)
 
 	# Validate the data and get the results
-	report = myValidator.validate(
+	report = Cjsv.validate(
 		someData,
 		someSchema,
 		weirdNameValidator
